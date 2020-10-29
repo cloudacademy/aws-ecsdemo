@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:15.0.1-alpine3.10
 
 RUN mkdir -p /usr/src/app
 
@@ -13,4 +13,4 @@ COPY . /usr/src/app
 
 EXPOSE 8081  
 RUN npm install  
-CMD ["npm", "start"] 
+CMD ["node", "server.js"]
