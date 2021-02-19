@@ -1,4 +1,4 @@
-FROM node:15.0.1-alpine3.10
+FROM FROM gcr.io/cloudacademy-labs-support/node:15.0.1-alpine3.10
 
 RUN mkdir -p /usr/src/app
 
